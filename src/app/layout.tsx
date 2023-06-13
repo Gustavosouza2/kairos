@@ -1,7 +1,25 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Gothic_A1 } from 'next/font/google';
+import localFont from "next/font/local";
 
-const inter = Inter({ subsets: ['latin'] })
+
+const gothic = Gothic_A1({ 
+  subsets: ['latin'] ,
+  weight: "400",
+
+  variable: "--font-gothic",
+})
+
+const corbel = localFont({
+  src: [
+    {
+      path: "../fonts/Corbel-Bold.ttf",
+      weight: "700",
+    },
+  ],
+  variable: "--font-corbel-bold",
+});
+
 
 export const metadata = {
   title: 'Create Next App',
@@ -15,7 +33,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${gothic.variable} ${corbel.variable}  font-sans`}>{children}</body>
     </html>
   )
 }
