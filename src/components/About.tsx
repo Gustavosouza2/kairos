@@ -4,13 +4,18 @@ import ImgEmpresa from "../images/Inside.jpg";
 import ImgAbout from "../images/thiago.jpg";
 
 export const About = () => {
+
+   {/* Sobre nós */}
+
   return (
-    <div className="w-full h-full bg-[#f6f6f6] dark:bg-slate-100 text-gray-300">
+    <div className="w-full h-full bg-[#f6f6f6] dark:bg-slate-100 text-gray-300" id="about">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <h1 className="text-silver font-sans mb-20 tracking-medium text-2xl underline">
           Empresa
         </h1>
 
+         {/* Grid Container */}
+         
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-4xl font-bold">
             <Image src={ImgEmpresa} alt="Empresa" className="" />

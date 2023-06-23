@@ -4,12 +4,15 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Logo from "../assets/logo.png";
 import { FaBars, FaTimes } from "react-icons/fa";
+import {Link} from "react-scroll";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => {
     setNav(!nav);
   };
+  
+  {/* Navbar */}
 
   return (
     <div className="max-w-full h-[100px] md:h-[150px] container flex flex-wrap p-4  md:flex-row items-center justify-between bg-[#f6f6f6] text-black">
@@ -24,33 +27,77 @@ const Navbar = () => {
             className="cursor-pointer transform 
             transition duration-500 hover:scale-125 tracking-small"
           >
-            <a>Home</a>
+            <Link
+              activeClass="active"
+              to="HomePage"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              
+            >
+              Home
+            </Link>
           </li>
           <li
             className="cursor-pointer transform 
             transition duration-500 hover:scale-125 tracking-small"
           >
-            <a>Sobre nós</a>
+              <Link
+              activeClass="active"
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              
+            >
+              Sobre nós
+            </Link>
+            
           </li>
           <li
             className="cursor-pointer transform 
             transition duration-500 hover:scale-125 tracking-small"
           >
-            <a>Arquitetura</a>
+            <Link
+              activeClass="active"
+              to="arquitetura"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              
+            >
+              Arquitetura
+            </Link>
           </li>
           <li
             className="cursor-pointer transform 
             transition duration-500 hover:scale-125 tracking-small"
           >
-            <a>Contato</a>
+            <Link
+              activeClass="active"
+              to="contato"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              
+            >
+              Contato
+            </Link>
           </li>
         </ul>
       </div>
 
       {/* Hamburguer */}
       <div className="">
-        <div onClick={handleClick} className="md:hidden relative z-10 text-silver">
-          {!nav ? <FaBars /> : <FaTimes className="text-silver"/>}
+        <div
+          onClick={handleClick}
+          className="md:hidden relative z-10 text-silver"
+        >
+          {!nav ? <FaBars /> : <FaTimes className="text-silver" />}
         </div>
       </div>
 

@@ -11,18 +11,26 @@ import quartopreto from "../projetos/quartopreto.jpg";
 import banheiro from "../projetos/banheiropreto.jpg";
 
 export const Projects = () => {
+  {
+    /* Projetos */
+  }
+
   return (
-    <div className="w-full h-full md:h-full bg-[#f6f6f6] dark:bg-slate-100 text-gray-300">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div className="pb-8 flex justify-center items-center mt-24 md:mt-0">
+    <div
+      className="w-full h-full md:h-full bg-[#f6f6f6] dark:bg-slate-100 text-gray-300"
+      id="arquitetura"
+    >
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-[3800px] md:h-[2050px] sm:h-[2300px]">
+        <div className="pb-8 flex justify-center items-center mt-10 md:mt-0">
           <p className="text-2xl text-silver font-sans  tracking-medium underline dark:text-[#111112]">
             Arquitetura
           </p>
         </div>
 
-        {/* Container */}
+        {/* Grid Container */}
+
         <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-40 mt-14">
-          {/* Grid */}
+          {/* Images */}
           <div
             style={{
               backgroundImage: `url(${QuartoBranco.src})`,
@@ -31,7 +39,6 @@ export const Projects = () => {
             }}
             className="shadow-lg bg-cover bg-center shadow-[#040C16] group container flex justify-start items-end mx-auto content-div"
           >
-            {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 transition delay-100 duration-300 ease-in-out pt-32 w-full">
               <div className="hover:bg-[#f6f6f6a8] flex flex-col px-4 transition delay-100 duration-300 ease-in-out pb-2 pt-2">
                 <span className="text-2xl font-sans text-silver tracking-widest">
@@ -52,7 +59,6 @@ export const Projects = () => {
             }}
             className="shadow-lg bg-cover bg-center shadow-[#040C16] group container flex justify-start items-end mx-auto content-div"
           >
-            {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 transition delay-100 duration-300 ease-in-out pt-32 w-full">
               <div className="hover:bg-[#f6f6f6a8] flex flex-col px-4 transition delay-100 duration-300 ease-in-out pb-2 pt-2">
                 <span className="text-2xl font-sans text-silver tracking-widest">
@@ -73,7 +79,6 @@ export const Projects = () => {
             }}
             className="shadow-lg bg-cover bg-center shadow-[#040C16] group container flex justify-start items-end mx-auto content-div"
           >
-            {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 transition delay-100 duration-300 ease-in-out pt-32 w-full">
               <div className="hover:bg-[#f6f6f6a8] flex flex-col px-4 transition delay-100 duration-300 ease-in-out pb-2 pt-2">
                 <span className="text-2xl font-sans text-silver tracking-widest">
@@ -94,7 +99,6 @@ export const Projects = () => {
             }}
             className="shadow-lg bg-cover bg-center shadow-[#040C16] group container flex justify-start items-end mx-auto content-div"
           >
-            {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 transition delay-100 duration-300 ease-in-out pt-32 w-full">
               <div className="hover:bg-[#f6f6f6a8] flex flex-col px-4 transition delay-100 duration-300 ease-in-out pb-2 pt-2">
                 <span className="text-2xl font-sans text-silver tracking-widest">
@@ -115,7 +119,6 @@ export const Projects = () => {
             }}
             className="shadow-lg bg-cover bg-center shadow-[#040C16] group container flex justify-start items-end mx-auto content-div"
           >
-            {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 transition delay-100 duration-300 ease-in-out pt-32 w-full">
               <div className="hover:bg-[#f6f6f6a8] flex flex-col px-4 transition delay-100 duration-300 ease-in-out pb-2 pt-2">
                 <span className="text-2xl font-sans text-silver tracking-widest">
@@ -136,7 +139,6 @@ export const Projects = () => {
             }}
             className="shadow-lg bg-cover bg-center shadow-[#040C16] group container flex justify-start items-end mx-auto content-div"
           >
-            {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 transition delay-100 duration-300 ease-in-out pt-32 w-full">
               <div className="hover:bg-[#f6f6f6a8] flex flex-col px-4 transition delay-100 duration-300 ease-in-out pb-2 pt-2">
                 <span className="text-2xl font-sans text-silver tracking-widest">
@@ -157,7 +159,6 @@ export const Projects = () => {
             }}
             className="shadow-lg bg-cover bg-center shadow-[#040C16] group container flex justify-start items-end mx-auto content-div"
           >
-            {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 transition delay-100 duration-300 ease-in-out pt-32 w-full">
               <div className="hover:bg-[#f6f6f6a8] flex flex-col px-4 transition delay-100 duration-300 ease-in-out pb-2 pt-2">
                 <span className="text-2xl font-sans text-silver tracking-widest">
@@ -178,7 +179,6 @@ export const Projects = () => {
             }}
             className="shadow-lg bg-cover bg-center shadow-[#040C16] group container flex justify-start items-end mx-auto content-div"
           >
-            {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 transition delay-100 duration-300 ease-in-out pt-32 w-full">
               <div className="hover:bg-[#f6f6f6a8] flex flex-col px-4 transition delay-100 duration-300 ease-in-out pb-2 pt-2">
                 <span className="text-2xl font-sans text-silver tracking-widest">
@@ -199,7 +199,6 @@ export const Projects = () => {
             }}
             className="shadow-lg bg-cover bg-center shadow-[#040C16] group container flex justify-start items-end mx-auto content-div"
           >
-            {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 transition delay-100 duration-300 ease-in-out pt-32 w-full">
               <div className="hover:bg-[#f6f6f6a8] flex flex-col px-4 transition delay-100 duration-300 ease-in-out pb-2 pt-2">
                 <span className="text-2xl font-sans text-silver tracking-widest">
@@ -220,7 +219,6 @@ export const Projects = () => {
             }}
             className="shadow-lg bg-cover bg-center shadow-[#040C16] group container flex justify-start items-end mx-auto content-div"
           >
-            {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 transition delay-100 duration-300 ease-in-out pt-32 w-full">
               <div className="hover:bg-[#f6f6f6a8] flex flex-col px-4 transition delay-100 duration-300 ease-in-out pb-2 pt-2">
                 <span className="text-2xl font-sans text-silver tracking-widest">

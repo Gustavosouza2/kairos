@@ -16,8 +16,14 @@ module.exports = {
       widest: '.1em',
       widest: '.25em',
     },
+    fontWeight: {
+      thin: '100',
+      light: '300',
+      normal: '400',
+    },
     colors: {
       'silver': '#121212',
+      'white': '#f6f6f6f6',
     },
     extend: {
       fontFamily: {
