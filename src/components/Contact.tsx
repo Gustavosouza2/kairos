@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import imgcontact from "../images/contact.jpg";
+import imgcontact from "../images/contatoimg.jpg";
 import logocontact from '../images/Logocontact.png';
 
 export const Contact = () => {
