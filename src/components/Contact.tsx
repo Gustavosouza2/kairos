@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import Imgcontact from "../images/contact.jpg";
-import Logocontact from '../images/Logocontact.png';
+import imgcontact from "../images/contact.jpg";
+import logocontact from '../images/Logocontact.png';
 
 export const Contact = () => {
 
@@ -57,13 +57,13 @@ export const Contact = () => {
         <div className="flex justify-center ">
           <p className="absolute font-sans font-light  tracking-small mt-[500px] text-xs z-10 hidden md:block text-white">Rua Tapari, 158 - Penha</p>
           <Image
-            src={Imgcontact}
+            src={imgcontact}
             alt="Empresa"
             className="w-[500px] h-full hidden md:block brightness-50
             drop-shadow-2xl"
           ></Image>
           <Image
-            src={Logocontact}
+            src={logocontact}
             alt="Empresa"
             className="hidden md:block absolute w-52 mt-[170px] mr-2 "
           ></Image>
