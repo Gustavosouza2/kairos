@@ -1,14 +1,5 @@
 import React from "react";
-import quartob from "../projetos/roowhite.jpg";
-import cozinhanor from "../projetos/cozinhanorm.jpg";
-import salap from "../projetos/salap.jpg";
-import kitchen from "../projetos/kitchen.jpg";
-import lustre from "../projetos/white.jpg";
-import cozinhab from "../projetos/whitekitchen.jpg";
-import cozinhamoderna from "../projetos/cozinhamoderna.jpg";
-import sala from "../projetos/sala.jpg";
-import quartopreto from "../projetos/quartopreto.jpg";
-import banheiro from "../projetos/banheiropreto.jpg";
+
 
 export const Projects = () => {
   {
@@ -33,7 +24,7 @@ export const Projects = () => {
           {/* Images */}
           <div
             style={{
-              backgroundImage: `url(${quartob.src})`,
+              backgroundImage: `url("/img/quartobranco.jpg")`,
               width: "90%",
               height: "160%",
             }}
@@ -53,7 +44,7 @@ export const Projects = () => {
           </div>
           <div
             style={{
-              backgroundImage: `url(${cozinhanor.src})`,
+              backgroundImage:   `url("/img/cozinha.jpg")`,
               width: "90%",
               height: "160%",
             }}
@@ -73,7 +64,7 @@ export const Projects = () => {
           </div>
           <div
             style={{
-              backgroundImage: `url(${salap.src})`,
+              backgroundImage:  `url("/img/sala.jpg")`,
               width: "90%",
               height: "160%",
             }}
@@ -93,7 +84,7 @@ export const Projects = () => {
           </div>
           <div
             style={{
-              backgroundImage: `url(${kitchen.src})`,
+              backgroundImage:  `url("/img/cozinhapreta.jpg")`,
               width: "90%",
               height: "160%",
             }}
@@ -113,7 +104,7 @@ export const Projects = () => {
           </div>
           <div
             style={{
-              backgroundImage: `url(${lustre.src})`,
+              backgroundImage:  `url("/img/lustrebranco.jpg")`,
               width: "90%",
               height: "160%",
             }}
@@ -133,7 +124,7 @@ export const Projects = () => {
           </div>
           <div
             style={{
-              backgroundImage: `url(${cozinhab.src})`,
+              backgroundImage:  `url("/img/cozinhabranca.jpg")`,
               width: "90%",
               height: "160%",
             }}
@@ -153,7 +144,7 @@ export const Projects = () => {
           </div>
           <div
             style={{
-              backgroundImage: `url(${cozinhamoderna.src})`,
+              backgroundImage:   `url("/img/cozinhamoderna.jpg")`,
               width: "90%",
               height: "160%",
             }}
@@ -173,7 +164,7 @@ export const Projects = () => {
           </div>
           <div
             style={{
-              backgroundImage: `url(${sala.src})`,
+              backgroundImage:  `url("/img/salapreta.jpg")`,
               width: "90%",
               height: "160%",
             }}
@@ -193,7 +184,7 @@ export const Projects = () => {
           </div>
           <div
             style={{
-              backgroundImage: `url(${quartopreto.src})`,
+              backgroundImage:  `url("/img/quartopreto.jpg")`,
               width: "90%",
               height: "160%",
             }}
@@ -213,7 +204,7 @@ export const Projects = () => {
           </div>
           <div
             style={{
-              backgroundImage: `url(${banheiro.src})`,
+              backgroundImage:  `url("/img/banheiropreto.jpg")`,
               width: "90%",
               height: "160%",
             }}
